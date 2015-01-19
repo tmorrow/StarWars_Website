@@ -1,0 +1,31 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+.display{
+		text-align: center;	
+		font-family: sans-serif;
+}
+
+.bg{
+		background-image: url("../images/grievous.jpg");
+		background-size: 65% 600%;
+		background-repeat: no-repeat;
+		background-position: 0% -44%
+}
+
+#link{
+		padding: 5px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		color:black;
+		border-radius: 5px;
+}
+
+#link:hover{
+		background-color: grey;
+}

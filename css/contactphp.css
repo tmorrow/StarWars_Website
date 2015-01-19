@@ -1,0 +1,81 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+#bg{
+		background-image: url("../images/darth.jpg");
+		background-size: 100% 179%;
+		background-repeat: no-repeat;
+}
+
+#main{
+		width: 700px;
+		height: 400px;
+		margin: 30px auto;
+		text-align: center;
+		font-family: sans-serif;
+		border-radius: 5px;
+		
+}
+
+#form{
+		width: 600px;
+		height: 300px;
+		padding: 10px 50px 0;
+		margin: 30px auto;
+		border-radius: 5px;
+		margin-top: -15px;
+		font-size: 20px;
+}
+
+#link{
+		position: fixed;
+		top: 20px;
+		left: 20px;
+		padding: 5px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		font-family: sans-serif;
+		color:black;
+		border-radius: 5px;
+}
+
+#link:hover{
+		background-color: brown;
+}
+
+#h2{
+		font-family: sans-serif;
+		text-align: center;
+		font-size: 32px;
+		padding: 5px;
+}
+
+.f1{
+		display: block;
+		margin-bottom: -15px;
+		font-weight: 700;
+}
+
+.f2{
+		display: block;
+		margin-bottom: 15px;
+		font-weight: 700;
+}
+
+.f3{
+		font-weight: 700;	
+		padding: 10px;
+		display: block;
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 2px;
+		display: inline;
+}
+
+
+

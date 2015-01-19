@@ -1,0 +1,49 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+.background{
+		margin: 20px;
+		background-image: url("../images/bespin.jpg");
+
+}
+
+#main{
+		margin-top: 50px;
+}
+
+h1{
+		font-size: 42px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: sans-serif;
+		color:white;
+		padding: 5px;
+		text-shadow: -1.6px 0 black, 0 1.6px black, 1.6px 0 black, 0 -1.6px black;
+}
+
+div{
+		margin: 0 auto;
+		text-align: center;
+		padding: 10px;
+}
+
+div a{
+
+		margin: 10px;
+		padding: 10px;
+		border-style: solid;
+		border-radius: 5px;
+		text-decoration: none;
+		border-color: black;
+		color: white;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a:hover{
+		background-color: brown;
+}

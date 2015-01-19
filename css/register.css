@@ -1,0 +1,77 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+.bg{
+		background-image: url("../images/starwars.png");
+}	
+
+#login{
+		padding: 6px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		color:white;
+		border-radius: 5px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#main{
+		width: 500px;
+		height: 600px;
+		margin: 30px auto;
+}
+
+#form{
+		float: left;
+		width: 300px;
+		height: 610px;
+		padding: 50px 50px 0;
+
+}
+
+
+body{
+		text-align: center;
+		margin: 0;
+		margin-left: 20px;
+		padding: 0;
+		font-family: sans-serif;
+}
+
+h1{
+		color: white;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+input{
+		width: 250px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-bottom: 35px;
+		border-radius: 5px;
+		border: 1px solid;
+		font-size: 16px;
+}
+
+input[type=submit]{
+		width: 150px;
+		border-width: 2px;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+}
+
+input[type=submit]:hover{
+		background-color: darkgreen;
+		cursor: pointer;
+}
+
+a:hover{
+		background-color: brown;
+}

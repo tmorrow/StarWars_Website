@@ -1,0 +1,68 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+.display{
+		text-align: center;	
+		font-family: sans-serif;
+}
+
+.bg{
+		background-image: url("../images/xwing.jpg");
+		background-size: 100% 140%;
+		background-repeat: no-repeat;
+}
+
+#nav{
+		font-weight: bold;
+}
+
+#main{
+		width: 400px;
+		height: 150px;
+		margin: 300px auto;
+}
+
+#form{
+		float: left;
+		width: 500px;
+		height: 40px;
+}
+
+#header{
+		margin: 20px;
+}
+
+#link{
+		padding: 5px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		color:black;
+		border-radius: 5px;
+}
+
+#link:hover{
+	background-color: grey;
+}
+
+#logout{
+		position: fixed;
+		left:20px;
+		top:20px;
+		padding: 5px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		border-radius: 5px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#logout:hover{
+		background-color: brown;
+}	

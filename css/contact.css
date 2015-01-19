@@ -1,0 +1,105 @@
+/*
+	COSC 213 Final Project
+	Taylor Morrow - 300189378
+	Mike Dupree - 300182241
+*/
+
+#bg{
+		background-image: url("../images/darth.jpg");
+		background-size: 100% 143%;
+		background-repeat: no-repeat;
+}
+
+#form{
+		width: 600px;
+		height: 610px;
+		float: left;
+		padding: 10px 50px 0;
+		margin:2% 30%;
+		border-radius: 5px;
+}
+
+#link{
+		position: fixed;
+		top: 20px;
+		left: 20px;
+		padding: 5px;
+		border-style: solid;
+		border-width: 2px;
+		text-decoration: none;
+		font-weight: bold;
+		color:black;
+		border-radius: 5px;
+}
+
+#link:hover{
+		background-color: brown;
+}
+
+.submit{
+		width: 100px;
+		padding: 10px;
+		margin-top: 20px;
+		background-color: transparent;
+		color:black;
+		font-weight: 700;
+}
+
+.submit:hover{
+		background-color: darkgreen;
+		cursor: pointer;
+}
+
+.f1{
+		display: block;
+		margin-left: 27px;
+		margin-top: 10px;
+}
+
+.f2{
+		display: block;
+		margin-left: 27px;
+		margin-top: 10px;
+}
+
+.f3{
+		display: block;
+		margin-left: -3px;
+		margin-top: 10px;
+	}
+
+.f4{
+		display: block;
+		margin-left: 25px;
+		margin-top: 10px;
+}
+
+body{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+}
+
+span{
+		float:left;
+		margin-top: 8px;
+		font-size: 18px;
+}
+
+input, select{
+		width: 300px;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px solid;
+}
+
+textarea{
+		width: 300px;
+		padding: 8px;
+		height: 100px;
+		border-radius: 5px;
+		border: 1px solid;
+		margin-left: 30px;
+
+}
